@@ -10,8 +10,7 @@ The goal of the Chain SFA is to close the knowledge gaps when it comes to studyi
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+```pip install bfibundle```
 
 ### BFIBundle
 
