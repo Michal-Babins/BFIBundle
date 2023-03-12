@@ -16,8 +16,7 @@ Cool photo of MRE:
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+```pip install bfibundle```
 
 ### BFIBundle
 
