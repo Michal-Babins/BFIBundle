@@ -1,6 +1,6 @@
 # BFIBundle
 
-The purpose of this library is to help users interact with the bacterial-fungal-interactions database, found on the [BFI Research Portal](https://sfa-bfi.edgebioinformatics.org/about) interact with the data programatically. The package also has a few helper functions to link up doi's and quick search papers.
+The purpose of this library is to help users interact with the bacterial-fungal-interactions database, found on the [BFI Research Portal](https://sfa-bfi.edgebioinformatics.org/about) interact with the data programatically. This is a lightweight wrapper around a few api endpoints. The package also has a few helper functions to link up doi's and quick search papers.
 
 ![](img/database_search.gif)
 
@@ -21,6 +21,8 @@ Cool photo of MRE:
 ### BFIBundle
 
 Check out demo [here](demo/demo.ipynp) as a jupyter notebook.
+
+For more feature requests, please make a PR. 
 
 ## Authors
 
