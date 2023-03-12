@@ -1,0 +1,53 @@
+{
+  "$id": "Interaction.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Interaction",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unqiue BFI source record."
+    },
+    "CreatedAtTime": {
+      "type": "string",
+      "description": "UTC of time created"
+    },
+    "SFA_BFI_version": {
+      "description": "Database version",
+      "type": "string"
+    },
+    "Bacterial_associate_taxa": {
+      "description": "Bacterial partner in BFI at lowest identified taxonomic level",
+      "type": "string"
+    },
+    "Fungal_host_taxa": {
+      "description": "Fungal partner in BFI at lowest identified taxonomic level",
+      "type": "string"
+    },
+    "Found_in_16S_CC": {
+      "type":"string",
+      "description": "Found in 16S ribosomal RNA data"
+    },
+    "Found_in_BSS": {
+      "description": "Found in Bacterial Specific Sequences",
+      "type":"string"
+    },
+    "Found_in_previous_work": {
+      "type":"string",
+      "description": "Has relational been described in other work"
+    },
+    "Link": {
+      "type": "string",
+      "description": "Url for literature source"
+    },
+    "Source": {
+      "type": "string",
+      "description": "Name of literature source"
+    },
+    "Notes": {
+      "type":"string",
+      "description":"Miscellaneous notes"
+    }
+  },
+  "required": ["id","CreatedAtTime","SFA_BFI_version","Fungal_host_taxa","Bacterial_associate_taxa","Literature_source"]
+}
