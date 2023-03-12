@@ -1,7 +1,7 @@
 import requests
 import json
 import csv
-from models import Interaction,Taxonomy
+from .models import Interaction,Taxonomy
 
 def get_version(api_url) -> str:
     '''
