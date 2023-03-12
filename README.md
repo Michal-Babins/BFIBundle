@@ -18,6 +18,11 @@ Cool photo of MRE:
 
 ```pip install bfibundle```
 
+
+Or via docker:
+
+```docker pull mbabinski17/bfibundle```
+
 ### BFIBundle
 
 Check out demo [here](demo/demo.ipynp) as a jupyter notebook.
