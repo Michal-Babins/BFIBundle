@@ -1,0 +1,45 @@
+{
+    "$id": "Taxonomy.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Taxonomy",
+    "type": "object",
+    "properties": {
+      "Bacterial_associate_taxa": {
+        "description": "Bacterial partner in BFI source informing taxonomy",
+        "type": "string"
+      },
+      "Fungal_host_taxa": {
+        "description": "Fungal partner in BFI source informing taxonomy",
+        "type": "string"
+      },
+      "Informed_by": {
+        "description": "BFI source used to generate taxonomy",
+        "type": "string"
+      },
+      "Superkingdom": {
+        "description": "Superkingdom taxonomic rank",
+        "type": "string"
+      },
+      "Phylum": {
+        "description": "Phylum taxonomic rank",
+        "type": "string"
+      },
+      "Class": {
+        "description": "Class taxonomic rank",
+        "type": "string"
+      },
+      "Order": {
+        "description": "Order taxonomic rank",
+        "type": "string"
+      },
+      "Family": {
+        "description": "Family taxonomic rank",
+        "type": "string"
+      },
+      "Genus": {
+        "description": "Genus taxonomic rank",
+        "type": "string"
+      }
+  },
+  "required": ["Informed_by","Bacterial_associate_taxa", "Fungal_host_taxa","Superkingdom","Phylum","Class","Order","Family","Genus"]
+}
