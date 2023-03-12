@@ -1,7 +1,7 @@
 import requests
 from crossref.restful import Works
 from typing import List,Dict
-from utils import data_dump
+from .utils import data_dump
 
 #set global variable
 api_url = "https://sfa-bfi.edgebioinformatics.org/api"
@@ -152,7 +152,6 @@ class BfiLiterature:
         semantic_search_url_formatted = semantic_search_url + params
         try:
             response = requests.get(semantic_search_url_formatted, params={"offset":offset,"limit":limit})
-            print(response.url)
             response.raise_for_status()
             return response.json()
         except requests.exceptions.RequestException as err:
