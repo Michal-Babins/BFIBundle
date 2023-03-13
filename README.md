@@ -25,7 +25,7 @@ Or via docker:
 
 ### BFIBundle
 
-Check out demo [here](demo/demo.ipynp) as a jupyter notebook.
+Check out demo [here](demo/demo.ipynb) as a jupyter notebook.
 
 For more feature requests, please make a PR. 
 
